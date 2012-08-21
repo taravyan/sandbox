@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+
+	<title>Title</title>
+
+<head>
+</head>
+
+<body>
+</body>
+
+	<h1>Forms</h1>
+
+	<p>Basic Form tags: form, input, textarea, select, and option.
+	<br/>< form action="processingscript.php" method="post" >< /form >
+	<br/><strong>action</strong> describes where the content will be sent to
+	<br/><strong>method</strong> is either "post" which hides information, or "get" which latches the information onto the URL.
+	</p>
+	
+	<p><strong>The "input" tag - it closes itself.</strong>
+	<br />< input type="text" /> is a standard textbox. This can also have a value attribute, which sets the initial text in the textbox.
+	<br />< input type="password" /> is similar to the textbox, but the characters typed in by the user will be hidden.
+	<br />< input type="checkbox" /> is a checkbox, which can be toggled on and off by the user. This can also have a checked attribute, which would be used in the format 
+	<br / ><input type="checkbox" checked="checked" /> <input type="checkbox" /> and makes the initial state of the check box to be switched on, as it were.  
+	<br />< input type="radio" /> is similar to a checkbox, but the user can only select one radio button in a group. This can also have a checked attribute, used in the same way as the checkbox.
+	<br />< input type="file" /> is an area that shows the files on your computer, like you see when you open or save a document in most programs, and is used to enable users to upload files.
+	<br />< input type="submit" /> is a button that when selected will submit the form. You can control the text that appears on the submit button (as you can with button and reset types - see below) with the value attribute, for example:
+	<br /><input type="submit" value="Ooo. Look. Text on a button. Wow" />
+	<br />< input type="image" /> is an image that will submit the coordinates of where the user clicked on it. This also requires a src attribute, like the img tag.
+	<br />< input type="button" /> is a button that will not do anything without extra code added.
+	<br />< input type="reset" /> is a button that when selected will reset the form fields to their default values.
+	<br />< input type="hidden" /> is a field that will not be displayed and is used to pass information such as the page name that the user is on or the email address that the form should be posted to.
+	</p>
+	
+	<p>
+	<textarea rows="5" cols="120">A big load of text here, and more can be added.</textarea>
+	</p>
+	
+	<p>
+	<select>
+		<option value="first option">Option 1</option>
+		<option value="second option" selected="selected">Option 2</option>
+		<option value="third option">Option 3</option>
+	</select>
+	</p>
+	
+	<p><strong>Note:</strong> everything should have a name="" at the beginning to help define what it is.
+	<br />IE: < input type="radio" name="areyou" value="male" /> or < input type="radio" name="areyou" value="female" />
+	</p>
+	
+</html>
