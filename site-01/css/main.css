@@ -1,0 +1,34 @@
+/* The site-wide css */
+
+* {
+	border: 1px dashed orange;
+}
+body {
+	background: #121212;
+}
+h1 {
+	font-family: 'Coustard', serif;
+	color: #c77429;
+}
+a {
+	color: #0074c6;
+	text-decoration: none;
+}
+a:visited {
+	color: #1f434f;
+}
+a:hover {
+	text-decoration: underline;
+	color: #0087e7;
+}
+#page {
+	width: 960px;
+	margin: 0 auto;
+}
+#content {
+	background: #d7d7d7;
+}
+#nav li{
+	display: inline;
+	padding: 10px;
+}
