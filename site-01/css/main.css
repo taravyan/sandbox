@@ -1,17 +1,21 @@
 /* The site-wide css */
 
 * {
-	border: 1px dashed orange;
+	border: 0px dotted pink;
 }
 body {
-	background: #121212;
+	background: #383838;
+	margin: 0;
+	font-family: verdana, sans-serif;
+	font-size: 14px;
 }
 h1 {
-	font-family: 'Coustard', serif;
+	font-family: 'Oxygen', sans-serif;
 	color: #c77429;
+	display: inline;
 }
 a {
-	color: #0074c6;
+	color: #508C99;
 	text-decoration: none;
 }
 a:visited {
@@ -21,14 +25,43 @@ a:hover {
 	text-decoration: underline;
 	color: #0087e7;
 }
-#page {
-	width: 960px;
-	margin: 0 auto;
+#header {
+	height: 50px;
+	padding: 10px;
+	background: #212121;
+	min-width: 960px;
+	border-bottom: 5px solid #EA752E;
+	margin: 0px;
 }
-#content {
-	background: #d7d7d7;
+#header img {
+	float: left;
+	margin: 0;
+	padding-left: 10px;
 }
 #nav li{
 	display: inline;
-	padding: 10px;
+	float: right;
+	padding-right: 15px;
+	font-size: 16px;	
 }
+#nav a {
+	color: #EA752E;
+}
+#content {
+	border: 0px solid red;
+	background: #c3c3c3;
+	width: 960px;
+	margin: 0 auto;
+}
+
+#feature {
+	margin: 100px 50px 0px 50px;
+}
+/* Well these don't work.
+#leftbox {
+	float: left;
+}
+#rightbox {
+	float: right;
+}
+*/
